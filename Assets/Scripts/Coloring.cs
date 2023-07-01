@@ -39,7 +39,6 @@ public class Coloring : MonoBehaviour
             if (Physics.Raycast(_camera.ScreenPointToRay(Input.mousePosition), out RaycastHit hit))
             {
                 _paintPoint = hit.textureCoord;
-                _paintPoint.x *= 2;
                 _coloringMaterialInstance.SetFloat("_TouchPositionX",_paintPoint.x);
                 _coloringMaterialInstance.SetFloat("_TouchPositionY",_paintPoint.y);
                 _doPaint = true;
