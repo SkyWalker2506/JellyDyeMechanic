@@ -222,7 +222,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _renderer: {fileID: 18417046}
   _coloringMaterial: {fileID: 2100000, guid: 7d33204de845141eba4df62dddf77698, type: 2}
-  _maxIndex: 32
   _coloringSpeed: 0.5
 --- !u!64 &18417050
 MeshCollider:
