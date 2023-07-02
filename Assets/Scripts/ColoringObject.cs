@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -16,11 +17,15 @@ public class ColoringObject : MonoBehaviour, IColoringObject
     private void Awake()
     {
         _coloringMaterialInstance = Instantiate(_coloringMaterial);
-        _renderer.material = _coloringMaterialInstance;
+        _renderer.material = _coloringMaterialInstance; 
         ResetColoring();
-        Assign();
     }
-    
+
+    private void Start()
+    {
+        Assign();   
+    }
+
     private void Update()
     {
         if (_painting && _fillAmount <= 1)
