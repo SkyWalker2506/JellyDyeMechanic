@@ -5,6 +5,7 @@ public class ColoringObject : MonoBehaviour, IColoringObject
 {
     [SerializeField] private MeshRenderer _renderer;
     [SerializeField] private Material _coloringMaterial;
+    [SerializeField] private Color _color;
     [SerializeField] private float _coloringSpeed = 1;
     private Material _coloringMaterialInstance;
     private float _fillAmount;
@@ -41,9 +42,10 @@ public class ColoringObject : MonoBehaviour, IColoringObject
     {
         _fillAmount = 0;
         _coloringMaterialInstance.SetFloat("_FillAmount", _fillAmount);
+        _coloringMaterialInstance.SetColor("_MatColor ",_color);
         _painting = false;
         _paintingFinished = false;
-    }
+    }    
     
     private void OnColoring()
     {
