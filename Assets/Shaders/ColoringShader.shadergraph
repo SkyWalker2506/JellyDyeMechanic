@@ -10,10 +10,7 @@
             "m_Id": "c86d24284bf54cc3ad5e0db6b3cc0242"
         },
         {
-            "m_Id": "edd33366c06b4283bf7f834699cd6c1a"
-        },
-        {
-            "m_Id": "091037d4923547d9abec04ad4d59a61f"
+            "m_Id": "e5f739021b314f379d16a6d767b02255"
         }
     ],
     "m_Keywords": [],
@@ -53,15 +50,6 @@
         },
         {
             "m_Id": "e965b63717a64cbfbc9df73a76544644"
-        },
-        {
-            "m_Id": "34bfd275e7b9466b86a0e18381ed6a98"
-        },
-        {
-            "m_Id": "858801806b3341f3afa7fc87c9ad578f"
-        },
-        {
-            "m_Id": "c4fbb1b8aac444d2ac5df3056e13aa8d"
         },
         {
             "m_Id": "7c46fb01c3fe43fe95c1eca88923dedf"
@@ -122,6 +110,9 @@
         },
         {
             "m_Id": "a4b87e36f4824bf2a9a564c1dffe6711"
+        },
+        {
+            "m_Id": "d64e3b0df9e44d9bbd689b31ddf9d9ea"
         }
     ],
     "m_GroupDatas": [],
@@ -209,20 +200,6 @@
                     "m_Id": "f7b79e87075846d5ba80c0d84b95593f"
                 },
                 "m_SlotId": 2
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "34bfd275e7b9466b86a0e18381ed6a98"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "02800d2324f045c4b3d79ff0ac636cf3"
-                },
-                "m_SlotId": 0
             }
         },
         {
@@ -368,20 +345,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "858801806b3341f3afa7fc87c9ad578f"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "34bfd275e7b9466b86a0e18381ed6a98"
-                },
-                "m_SlotId": 1
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "8a1c68e3e0a4418987552e6d4a0b2657"
                 },
                 "m_SlotId": 0
@@ -480,20 +443,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "c4fbb1b8aac444d2ac5df3056e13aa8d"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "34bfd275e7b9466b86a0e18381ed6a98"
-                },
-                "m_SlotId": 2
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "cc73a2da419c4b17ba3023cca8212346"
                 },
                 "m_SlotId": 4
@@ -517,6 +466,20 @@
                     "m_Id": "7e28b85733e24aa5b2feddbf9bebf643"
                 },
                 "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "d64e3b0df9e44d9bbd689b31ddf9d9ea"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "02800d2324f045c4b3d79ff0ac636cf3"
+                },
+                "m_SlotId": 0
             }
         },
         {
@@ -695,34 +658,6 @@
         "w": 0.0
     },
     "m_Labels": []
-}
-
-{
-    "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
-    "m_ObjectId": "091037d4923547d9abec04ad4d59a61f",
-    "m_Guid": {
-        "m_GuidSerialized": "eabbae1a-ad11-495d-baa2-728132ea0a6a"
-    },
-    "m_Name": "TouchPositionX",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "TouchPositionX",
-    "m_DefaultReferenceName": "_TouchPositionX",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_DismissedVersion": 0,
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": 0.0,
-    "m_FloatType": 0,
-    "m_RangeValues": {
-        "x": 0.0,
-        "y": 1.0
-    }
 }
 
 {
@@ -1072,10 +1007,7 @@
             "m_Id": "c86d24284bf54cc3ad5e0db6b3cc0242"
         },
         {
-            "m_Id": "091037d4923547d9abec04ad4d59a61f"
-        },
-        {
-            "m_Id": "edd33366c06b4283bf7f834699cd6c1a"
+            "m_Id": "e5f739021b314f379d16a6d767b02255"
         }
     ]
 }
@@ -1206,54 +1138,6 @@
         "y": 0.0
     },
     "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector2Node",
-    "m_ObjectId": "34bfd275e7b9466b86a0e18381ed6a98",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Vector 2",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -1225.4998779296875,
-            "y": -581.0,
-            "width": 127.0001220703125,
-            "height": 101.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "d082f0e710eb49e186832c869276ab45"
-        },
-        {
-            "m_Id": "d7c420ff4f7345218fc9de2df43c4776"
-        },
-        {
-            "m_Id": "b4471d165b194c58b01c3125f0b42a5c"
-        }
-    ],
-    "synonyms": [
-        "2",
-        "v2",
-        "vec2",
-        "float2"
-    ],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0
-    }
 }
 
 {
@@ -1878,21 +1762,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "654198171f524c7187a8159c0cae600a",
-    "m_Id": 0,
-    "m_DisplayName": "TouchPositionY",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "68e77cddbb73419eb499a04ee02dc68f",
     "m_Id": 2,
@@ -2394,21 +2263,6 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "7c4c43590f6b4ea68076cfe1debc3880",
-    "m_Id": 0,
-    "m_DisplayName": "TouchPositionX",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "7d4d20e45b194c498def589def70d464",
     "m_Id": 0,
     "m_DisplayName": "Time",
@@ -2521,42 +2375,6 @@
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
-    }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
-    "m_ObjectId": "858801806b3341f3afa7fc87c9ad578f",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Property",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -1433.9998779296875,
-            "y": -568.0,
-            "width": 156.5,
-            "height": 34.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "7c4c43590f6b4ea68076cfe1debc3880"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Property": {
-        "m_Id": "091037d4923547d9abec04ad4d59a61f"
     }
 }
 
@@ -3294,7 +3112,7 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
-    "m_ObjectId": "b4471d165b194c58b01c3125f0b42a5c",
+    "m_ObjectId": "b51b32f1018a42c09df1934b30a68530",
     "m_Id": 0,
     "m_DisplayName": "Out",
     "m_SlotType": 1,
@@ -3315,9 +3133,9 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
-    "m_ObjectId": "b51b32f1018a42c09df1934b30a68530",
+    "m_ObjectId": "b60233a9c15a4536a715b88f607ce7de",
     "m_Id": 0,
-    "m_DisplayName": "Out",
+    "m_DisplayName": "TouchPosition",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -3401,42 +3219,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
-    "m_ObjectId": "c4fbb1b8aac444d2ac5df3056e13aa8d",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Property",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -1433.9998779296875,
-            "y": -513.9999389648438,
-            "width": 157.0,
-            "height": 33.99993896484375
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "654198171f524c7187a8159c0cae600a"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Property": {
-        "m_Id": "edd33366c06b4283bf7f834699cd6c1a"
-    }
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "c55a705ad9ce46718b95c176f0650c01",
     "m_Id": 4,
@@ -3509,7 +3291,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.7900000214576721,
+    "m_Value": 0.0,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -3711,21 +3493,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "d082f0e710eb49e186832c869276ab45",
-    "m_Id": 1,
-    "m_DisplayName": "X",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "X",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StepNode",
     "m_ObjectId": "d210a2c54cb54194bbae2c34c9d692ad",
     "m_Group": {
@@ -3813,6 +3580,42 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "d64e3b0df9e44d9bbd689b31ddf9d9ea",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -1278.9998779296875,
+            "y": -479.9999694824219,
+            "width": 151.0,
+            "height": 33.999969482421878
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "b60233a9c15a4536a715b88f607ce7de"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "e5f739021b314f379d16a6d767b02255"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "d7057f8881d54deeb8723feb2caa6db2",
     "m_Id": 0,
@@ -3824,23 +3627,6 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "d7c420ff4f7345218fc9de2df43c4776",
-    "m_Id": 2,
-    "m_DisplayName": "Y",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Y",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": [
-        "Y"
-    ]
 }
 
 {
@@ -4129,6 +3915,34 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector2ShaderProperty",
+    "m_ObjectId": "e5f739021b314f379d16a6d767b02255",
+    "m_Guid": {
+        "m_GuidSerialized": "2caf6360-1c82-4430-bcec-7724e3ba09b8"
+    },
+    "m_Name": "TouchPosition",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "TouchPosition",
+    "m_DefaultReferenceName": "_TouchPosition",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    }
+}
+
+{
     "m_SGVersion": 3,
     "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
     "m_ObjectId": "e60ea63d41744991b6221197256688ce",
@@ -4292,34 +4106,6 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
-    }
-}
-
-{
-    "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
-    "m_ObjectId": "edd33366c06b4283bf7f834699cd6c1a",
-    "m_Guid": {
-        "m_GuidSerialized": "6ad48c21-730d-4bd1-be39-60e6ae0c32ae"
-    },
-    "m_Name": "TouchPositionY",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "TouchPositionY",
-    "m_DefaultReferenceName": "_TouchPositionY",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_DismissedVersion": 0,
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": 0.0,
-    "m_FloatType": 0,
-    "m_RangeValues": {
-        "x": 0.0,
-        "y": 1.0
     }
 }
 

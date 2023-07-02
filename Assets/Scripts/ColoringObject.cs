@@ -1,6 +1,4 @@
-using System;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 
 public class ColoringObject : MonoBehaviour, IColoringObject
@@ -47,7 +45,7 @@ public class ColoringObject : MonoBehaviour, IColoringObject
         _paintingFinished = false;
     }
     
-    public void OnColoring()
+    private void OnColoring()
     {
         _fillAmount += Time.deltaTime * .01f * _coloringSpeed;
         if (_fillAmount > 1)
@@ -64,8 +62,7 @@ public class ColoringObject : MonoBehaviour, IColoringObject
         {
             return;
         }
-        _coloringMaterialInstance.SetFloat("_TouchPositionX",position.x-.5f);
-        _coloringMaterialInstance.SetFloat("_TouchPositionY",position.y-.5f);
+        _coloringMaterialInstance.SetVector("_TouchPosition",position-Vector2.one*.5f);
         _painting = true;
     }
 
@@ -77,6 +74,5 @@ public interface IColoringObject
 {
     void Assign();
     void ResetColoring();
-    void OnColoring();
     void StartColoring(Vector2 position);
 }
