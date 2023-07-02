@@ -2609,8 +2609,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1692.0,
-            "y": -856.0000610351563,
+            "x": -1480.5,
+            "y": -849.5,
             "width": 130.0,
             "height": 34.0
         }
@@ -2762,7 +2762,7 @@
     "m_ShaderOutputName": "A",
     "m_StageCapability": 3,
     "m_Value": {
-        "e00": 10.0,
+        "e00": 5.0,
         "e01": 0.0,
         "e02": 0.0,
         "e03": 0.0,
@@ -3064,7 +3064,7 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     },
-    "m_LogBase": 2
+    "m_LogBase": 0
 }
 
 {
@@ -3509,7 +3509,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 1.1200000047683716,
+    "m_Value": 0.7900000214576721,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
