@@ -64,12 +64,9 @@ public class ColoringObject : MonoBehaviour, IColoringObject
         {
             return;
         }
-        _coloringMaterialInstance.SetVector("_TouchPosition",position-Vector2.one*.5f);
+        _coloringMaterialInstance.SetVector("_TouchPosition",Vector2.one*.5f-position);
         _painting = true;
     }
-
-
-  
 }
 
 public interface IColoringObject
