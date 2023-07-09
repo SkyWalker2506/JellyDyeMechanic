@@ -882,7 +882,7 @@ MonoBehaviour:
   _renderer: {fileID: 428938678}
   _coloringMaterial: {fileID: 2100000, guid: 1d2f6b754ca05604abbb25a9c9d03cc1, type: 2}
   _color: {r: 1, g: 0, b: 0, a: 1}
-  _coloringSpeed: 20
+  _coloringSpeed: 10
 --- !u!64 &428938682
 MeshCollider:
   m_ObjectHideFlags: 0
