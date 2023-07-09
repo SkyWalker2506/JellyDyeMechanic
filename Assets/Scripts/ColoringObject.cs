@@ -42,7 +42,7 @@ public class ColoringObject : MonoBehaviour, IColoringObject
     {
         _fillAmount = 0;
         _coloringMaterialInstance.SetFloat("_FillAmount", _fillAmount);
-        _coloringMaterialInstance.SetColor("_MatColor ",_color);
+        _coloringMaterialInstance.SetColor("_TextureColor",_color);
         _painting = false;
         _paintingFinished = false;
     }    
