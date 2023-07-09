@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ColoringMaterial 2
+  m_Name: ColoringMaterial
   m_Shader: {fileID: -6465566751694194690, guid: fe428dd17fa422f4d80a29494325a666,
     type: 3}
   m_Parent: {fileID: 0}
@@ -179,6 +179,7 @@ Material:
     - _MatColor: {r: 0, g: 0.06700638, b: 0.5660378, a: 1}
     - _REFLECTIONS_COLOR: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _TextureColor: {r: 0.082131036, g: 0, b: 0.5660378, a: 1}
     - _TouchPosition: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2616279496294962595

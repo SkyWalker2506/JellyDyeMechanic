@@ -42,7 +42,6 @@ public class ColoringObject : MonoBehaviour, IColoringObject
     {
         _fillAmount = 0;
         _coloringMaterialInstance.SetFloat("_FillAmount", _fillAmount);
-        _coloringMaterialInstance.SetColor("_TextureColor",_color);
         _painting = false;
         _paintingFinished = false;
     }    
@@ -58,12 +57,14 @@ public class ColoringObject : MonoBehaviour, IColoringObject
         _coloringMaterialInstance.SetFloat("_FillAmount",_fillAmount);
     }
 
-    public void StartColoring(Vector2 position)
+    public void StartColoring(Vector2 position, Color color)
     {
         if (_painting || _paintingFinished)
         {
             return;
         }
+        _color = color;
+        _coloringMaterialInstance.SetColor("_TextureColor",_color);
         _coloringMaterialInstance.SetVector("_TouchPosition",Vector2.one*.5f-position);
         _painting = true;
     }
@@ -73,5 +74,5 @@ public interface IColoringObject
 {
     void Assign();
     void ResetColoring();
-    void StartColoring(Vector2 position);
+    void StartColoring(Vector2 position, Color color);
 }
